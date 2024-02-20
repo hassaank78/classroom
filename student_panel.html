@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student's Panel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <div class="grid-container">
+    <aside>
+      <div class="logo">
+        <img src="images/logo.png" alt="logo">
+        <p>Bachelor of Science in Information Technology (TY-BSCIT)</p>
+      </div>
+      <div class="nav-links">
+        <a href="#" data-target="material" class="active">
+          <span class="material-symbols-outlined">book_5</span>
+          View Material
+        </a>
+        <a href="#" data-target="assignment">
+          <span class="material-symbols-outlined">assignment_add</span>
+          View Assignments
+        </a>
+        <a href="#" data-target="scores">
+          <span class="material-symbols-outlined">assignment_turned_in</span>
+          View Scores
+        </a>
+        <a href="#" data-target="logout">
+          <span class="material-symbols-outlined">logout</span>
+          Logout
+        </a>
+      </div>
+    </aside>
+    <article id="material">
+      <div class="content">
+        <span class="material-symbols-outlined">book_5</span>
+        <p>This is where all the study materials <br /> will appear uploaded by teachers</p>
+      </div>
+    </article>
+    <article id="assignment">
+      <div class="content">
+        <span class="material-symbols-outlined">assignment</span>
+        <p>This is where all the assignments <br /> will appear assigned by teachers</p>
+      </div>
+    </article>
+    <article id="scores">
+      <div class="heading">
+        <a href="#" data-target="material">
+          <span class="material-symbols-outlined">assignment</span>
+          Assignment Scores
+        </a>
+      </div>
+      <div class="assignment_scores">
+        <div class="icon">
+          <span class="material-symbols-outlined">assignment</span>
+        </div>
+        <p>GIS Assignment 1- unit 1</p>
+        <span>10/10</span>
+      </div>
+      <div class="assignment_scores">
+        <div class="icon">
+          <span class="material-symbols-outlined">assignment</span>
+        </div>
+        <p>SQA Assignment 1- unit 1</p>
+        <span>10/10</span>
+      </div>
+      <div class="assignment_scores">
+        <div class="icon">
+          <span class="material-symbols-outlined">assignment</span>
+        </div>
+        <p>HCI Assignment 1- unit 1</p>
+        <span>10/10</span>
+      </div>
+      <div class="assignment_scores">
+        <div class="icon">
+          <span class="material-symbols-outlined">assignment</span>
+        </div>
+        <p>ITSM Assignment 1- unit 1</p>
+        <span>10/10</span>
+      </div>
+    </article>
+    <article id="logout">
+      <div class="flex">
+        <div class="logout-confirm">
+          <p>Are you sure you want to logout?</p>
+          <a href="index.html">Yes</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
